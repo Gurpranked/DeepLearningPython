@@ -11,7 +11,7 @@ import numpy as np
 import argparse
 
 # A: Represents the nueron count within the second layer of the 3 layer network (arg.Hyperparameter[0])
-# B: Represents the nueron count withint eh third and final layer of the 3 layer network, the output layer. (arg.Hyperparameter[1])
+# B: Represents the nueron count withint eh third and final layer of the 3 layer network, the output layer, must be 10 to match the output dimension. (arg.Hyperparameter[1])
 # X: Represents the epochs for which to train the data (arg.Hyperparameter[2])
 # Y: Represents the mini-batch size for each epoch of training, typically in multiple of 8 for computational efficiency (arg.Hyperparameter[3])
 # Z: Represents the learning rate for the model. The learning rate represents the step the model is to 
